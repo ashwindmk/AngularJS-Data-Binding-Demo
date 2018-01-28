@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html ng-app>
+    <head>
+        <title> Binding Demo </title>
+        <style>
+            html, body {
+                height: 100%;
+            }
+            html {
+                display: table;
+                margin: auto;
+            }
+            body {
+                display: table-cell;
+                vertical-align: middle;
+            }
+        </style>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+    </head>
+    <body style="background: {{yourColor}};">
+        <input type="text" ng-model="yourColor" placeholder="Enter hex color code" />
+    </body>
+</html>
