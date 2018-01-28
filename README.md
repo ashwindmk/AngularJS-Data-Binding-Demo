@@ -1,4 +1,4 @@
-# Angular JS Binding Demo
+# Angular JS Data Binding Demo
 
 This project shows the two-way data binding in Angular JS. The code will dynamically change the background color of web page.
 
